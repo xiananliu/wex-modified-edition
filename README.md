@@ -1,6 +1,6 @@
 # wex-modified-edition
 
-本仓库提供面向 Dynabook G83 的 WhateverXe 预编译产物。当前版本为 [0.8.3](https://github.com/xiananliu/wex-modified-edition/releases/tag/0.8.3)，基于上游 [WhateverXe 0.8.3](https://github.com/b00t0x/WhateverXe/releases/tag/0.8.3)，kext 内部版本号同为 `0.8.3`。源码位于 [WhateverXe-Dynabook 的 dynabook-0.8.3 分支](https://github.com/xiananliu/WhateverXe-Dynabook/tree/dynabook-0.8.3)。
+本仓库提供面向 Dynabook G83 的 WhateverXe 预编译产物。当前版本为 [0.8.3](https://github.com/xiananliu/wex-modified-edition/releases/tag/0.8.3)，基于上游 [WhateverXe 0.8.3](https://github.com/b00t0x/WhateverXe/releases/tag/0.8.3)，kext 内部版本号同为 `0.8.3`。
 
 ## 改进点与使用参数（相对上游 0.8.3）
 
@@ -21,4 +21,4 @@
 
 从旧版升级时，可移除下游的 VA 回退、Metal 泄漏修复、eDP 训练、DDI 冲突选择和调试探针参数。视频转换和 Metal 命令缓冲泄漏修复随官方 Graphics 0.4.4 提供。
 
-完整依赖与整机配置见 [WhateverXe 上游安装说明](https://github.com/b00t0x/WhateverXe/blob/0.8.3/README.md#installation) 和 [Dynabook G83 EFI](https://github.com/xiananliu/g83-11gen-hackintosh-tahoe-efi)。Release 包来自源码仓库的 [GitHub Actions 构建](https://github.com/xiananliu/WhateverXe-Dynabook/actions/runs/44755519084)，对应源码提交为 [`825eb47`](https://github.com/xiananliu/WhateverXe-Dynabook/commit/825eb47d934a20a8477db743e44e5c908d95f762)。本仓库中的 `WhateverXe.kext` 与 RELEASE ZIP 内的驱动一致。许可见 [LICENSE.txt](LICENSE.txt)。
+完整依赖与整机配置见 [WhateverXe 上游安装说明](https://github.com/b00t0x/WhateverXe/blob/0.8.3/README.md#installation) 和 [Dynabook G83 EFI](https://github.com/xiananliu/g83-11gen-hackintosh-tahoe-efi)。本仓库中的 `WhateverXe.kext` 与 RELEASE ZIP 内的驱动一致。许可见 [LICENSE.txt](LICENSE.txt)。
